@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Primeiro Formulario</h2>
+  <form action="arquivo.php" method="post">
+    
+    <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email" required>
+    <br><br>
+    
+    <input type="password" id="senha_cadastro" name="senha_cadastro" placeholder="Senha"required>
+    <br><br>
+    
+    <input type="text" name="nome_usuario"placeholder="Nome" id="nome_usuario">
+    <br><br>
+
+    <input type="date" name="data_nascimento" id="data_nascimento">
+    <br><br>
+
+    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" pattern="[0-9](2) [0-9](5) [0-9](4)" required>
+    <br><br>
+    <label for="genero">Genero</label>
+    <select name="genero" id="genero">
+      <option value="">Selecione</option>
+      <option value="Mas">Masculino</option>
+      <option value="Fem">Feminino</option>
+      <option value="Outro">Outro</option>
+    </select>
+    <br><br>
+    <textarea name="mensagem" id="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..."></textarea>
+    <br><br>
+    <label for="Idade">Idade</label>
+    <input type="number" name="Idade" id="Idade" min="0" max="120"  placeholder="Idade">
+
+    <br><br>
+    <button type="submit">Enviar</button>
+    
+  </form>
+</body>
+</html>
+
+
+

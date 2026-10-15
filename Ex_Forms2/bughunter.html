@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 5 - Caça aos Erros</title>
+</head>
+<body>
+
+  <form action="arquivo.html" method="post">
+    <h3>Pesquisa de Satisfação</h3>
+
+    <label>Você recomendaria nosso serviço?</label><br>
+    <input type="radio" id="sim" name="recomendacao" value="sim">
+    <label for="sim">Sim</label>
+
+    <input type="radio" id="nao" name="recomendacao" value="nao">
+    <label for="nao">Não</label>
+    <br><br>
+
+    <label for="estado">Seu Estado:</label>
+    <select id="estado" name="estado">
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="MG">Minas Gerais</option>
+    </select>
+    <br><br>
+
+    <label for="comentario">Deixe seu comentário:</label>
+    <textarea id="comentario" name="comentario"></textarea>
+    <br><br>
+
+    <button type="submit">Enviar Avaliação</button>
+  </form>
+
+</body>
+</html>

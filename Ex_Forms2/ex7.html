@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Primeiro Formulario</h2>
+  <form action="arquivo.php" method="post">
+      <input type="text" id="nome_cliente" name="nome_cliente" placeholder="Nome do cliente" required>
+  </form>
+<br><br>
+
+    <label for="nota_produto">Nota do Produto: </label>
+    <select name="nota_produto" id="nota_produto">
+      <option value="">Selecione</option>
+      <option value="Mas">✯</option>
+      <option value="Fem">✯✯</option>
+      <option value="Outro">✯✯✯</option>
+       <option value="Outro">✯✯✯✯</option>
+        <option value="Outro">✯✯✯✯✯</option>
+    </select>
+
+
+<br><br><br>
+
+    <textarea name="mensagem" id="mensagem" rows="4" cols="50" placeholder="Escreva seu depoimento..."></textarea>
+    <br><br>
+
+      <form action="arquivo.html" method="post">
+    <h4>Recomenda a compra? </h4>
+
+    <input type="radio" id="recomendacao" name="recomendacao" value="recomendacao">
+    <label for="manha">Sim</label>
+
+    <input type="radio" id="recomendacao" name="recomendacao" value="recomendacao">
+    <label for="tarde">Não</label>
+    <br><br>
+      </form>
+
+       <h2>Destaques do produto: </h2>
+  <form action="arquivo.php" method="post">
+    
+    <input type="checkbox" id="qualidade_material" name="destaques" >
+    <label for="corte_cabelo">Qualidade do material</label>
+<br><br>
+    
+    <input type="checkbox" id="entrega_rapida" name="destaques" >
+    <label for="barba">Entrega rápida</label>
+<br><br>
+    
+    <input type="checkbox" id="custo_beneficio"  name="destaques" >
+    <label for="hidratacao">Custo-benefício</label>
+<br><br>
+
+     <form action="arquivo.php" method="post"></form>
+     <input type="checkbox" id="autorizacao"  name="autorizacao" required>
+     <label for="hidratacao"> Autorizo a exibição desta avaliação no site.</label>
+    
+
+    <br><br>
+    <button type="submit">Publicar Avaliação</button>
+    
+  </form>
+</body>
+</html>
+
+
+
